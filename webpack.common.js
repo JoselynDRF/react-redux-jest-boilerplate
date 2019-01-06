@@ -1,9 +1,11 @@
+const path = require('path');
+
 module.exports = {
   entry: './src/index.js',
 
   output: {
     filename: 'bundle.js',
-    path: `${__dirname}/public`,
+    path: path.resolve(__dirname, 'public'),
     publicPath: '/',
   },
 
@@ -12,7 +14,7 @@ module.exports = {
   },
 
   devServer: {
-    host: '0.0.0.0',
+    host: 'localhost',
     port: 8080,
     inline: true,
     contentBase: './public',
