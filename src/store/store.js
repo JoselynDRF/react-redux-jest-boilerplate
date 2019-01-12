@@ -1,16 +1,12 @@
-import { createStore, applyMiddleware, combineReducers } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
+import reducers from '../reducers/reducers';
 import actionLoadElements from '../actions/elements-actions';
-import elements from '../reducers/elements-reducer';
-import message from '../reducers/message-reducer';
-import logger from '../reducers/logger-reducer';
+import logger from './logger';
 
 // Create store
-const store = createStore(combineReducers({
-  elements,
-  message,
-}), applyMiddleware(thunk, logger));
+const store = createStore(reducers, applyMiddleware(thunk, logger));
 
 store.dispatch(actionLoadElements());
 
