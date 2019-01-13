@@ -1,4 +1,4 @@
-# ReactJS & Redux Template
+# ReactJS, Redux, Jest & Webpack Boilerplate
 Getting Started with [ReactJS](https://reactjs.org/), [Redux](https://redux.js.org/), [Jest](https://jestjs.io/) and [Webpack](https://webpack.js.org/)
 
 ## Getting Started

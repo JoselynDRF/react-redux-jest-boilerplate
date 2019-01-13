@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-template",
+  "name": "react-redux-jest-boilerplate",
   "version": "1.0.0",
-  "description": "Getting Started with React and Redux",
+  "description": "Getting Started with ReactJS, Redux, Jest and Webpack",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.dev.js",
@@ -12,6 +12,7 @@
   "keywords": [
     "React",
     "Redux",
+    "Jest",
     "Webpack"
   ],
   "author": "Joselyn Dos Ramos",
