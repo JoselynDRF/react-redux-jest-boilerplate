@@ -1,5 +1,5 @@
 # ReactJS & Redux Template
-Getting Started with ReactJS, Redux and Webpack
+Getting Started with [ReactJS] (https://reactjs.org/), [Redux] (https://redux.js.org/), [Jest] (https://jestjs.io/) and [Webpack] (https://webpack.js.org/)
 
 ## Getting Started
 
@@ -16,3 +16,6 @@ After you have installed all dependencies, you may run the app.
 - `json-server --watch src/services/elements.json` (Optional, is used in the example)
 - `npm start`
 - Go to `http://localhost:8080/`
+
+### Running Tests:
+* `npm test`
